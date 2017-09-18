@@ -19,7 +19,7 @@ static int __init hello_init(void)
 static void __exit hello_exit(void)
 {
 	free_netlink();
-	printk(KERN_INFO "Goodbye, world 2\n");
+	printk(KERN_INFO "Goodbye, world\n");
 }
 
 module_init(hello_init);
